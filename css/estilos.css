@@ -1,0 +1,156 @@
+html {font-family: GillSans, Calibri, Trebuchet, sans-serif;}     
+nav{
+  background-color: #009688;
+  position: fixed;
+  z-index: 1000;
+}
+table{
+  position: relative;
+}
+a{color: #000;}
+.barra{
+  background-color: #757575;
+  margin-top: 64px;
+  position: fixed;
+  height: 1000px;
+}
+.agregar{
+  display: inline-block;
+}
+.row h3{
+  font-weight: 300;
+  margin-left: 0px;
+  color: #616161;
+}
+.row a{
+  margin-top: 10px;
+}
+.collapsible li{
+  color: #fff;
+  font-size: 1.3em;
+}
+.ver-lista{
+  float: right;
+}
+.usuario{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.circulo{
+	margin-top: 10px;
+	width: 100%;
+}
+.perfil{
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	border-radius: 50%;
+  cursor: pointer;
+}
+.nombre{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.nombre h4{
+	margin: 7px 0px 0px 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 1.5em;
+	color: #fff;
+	cursor: pointer;
+}
+
+.login{
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+  .login div{
+    padding-top: 10px;
+  }
+
+.btn-iniciar{
+  float: right;
+  margin-right: 20px;
+  background-color: #6498FE;
+}
+.head-login{
+  width: 500px;
+  height: 130px;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: #6498FE; 
+}
+  .head-login h2{
+    color: #fff;
+    padding: 60px 0px 0px 50px;
+  }
+.contenido{
+  position: relative;
+  top: 65px;
+  left: 22.5%;
+}
+
+
+.log{
+  margin-top: 90px;
+}
+.lista{
+  position: relative;
+}
+.titulo-tabla{
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 60px;
+  z-index: 200;
+  
+}
+.lista table{
+  margin-top: 100px;
+}
+.contenedor-login{
+  height: 1920px;
+  background-color: #EEEEEE;
+}
+.zoom{
+  transition: 0.25s ease;
+  -moz-transition: 0.25s ease; 
+  -webkit-transition: 0.25s ease; 
+  -o-transition: 0.25s ease;}
+  .zoom:hover{
+    transform : scale(1.25);
+    -moz-transform : scale(1.25); 
+    -webkit-transform : scale(1.25); 
+    -o-transform : scale(1.25); 
+    -ms-transform : scale(1.25);}
+
+.titulo{
+  display: inline-block;
+}
+.opciones{
+  display: inline-block;
+  margin-top: 41px;
+  width: 300px;
+  margin-right: 257px;
+  height: 70px;
+  float: right;
+}
+.opciones i{
+  margin: 0px 45px 0px 25px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.search{
+  width: 200px;
+      float: right;
+    position: absolute;
+    right: 343px;
+    top: 22px;
+}
+
+.search {display: inline-block;}

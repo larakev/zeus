@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?sxlnj7');
+	src:url('fonts/icomoon.eot?sxlnj7#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?sxlnj7') format('truetype'),
+		url('fonts/icomoon.woff?sxlnj7') format('woff'),
+		url('fonts/icomoon.svg?sxlnj7#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pencil:before {
+	content: "\e900";
+	margin-right: 30px;
+
+}
+	.icon-pencil:hover{
+		color: #FFA000;
+	}
+.icon-cart:before {
+	content: "\e902";
+}
+.icon-printer:before {
+	content: "\e901";
+}
+.icon-user-plus:before {
+	content: "\e903";
+	color: #8BC34A;
+}
+.icon-search:before {
+	content: "\e904";
+}
+.icon-clipboard:before {
+	content: "\e909";
+}
+.icon-plus:before {
+	content: "\e905";
+}
+.icon-cross:before {
+	content: "\e90a";
+}
+	.icon-cross:hover{
+		color: #F44336;
+	}
+.icon-exit:before {
+	content: "\e908";
+}
+.icon-file-pdf:before {
+	content: "\e906";
+	color: #BB0706;
+	
+}
+.icon-file-excel:before {
+	content: "\e907";
+	color: #207347;
+
+}
+
